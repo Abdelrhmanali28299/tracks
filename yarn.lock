@@ -4077,9 +4077,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@^1.7.0:
   version "1.8.0"
@@ -4312,6 +4312,19 @@ react-native-reanimated@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.4.0.tgz#7f1acbf9be08492d834f512700570978052be2f9"
   integrity sha512-tO7nSNNP+iRLVbkcSS5GXyDBb7tSI02+XuRL3/S39EAr35rnvUy2JfeLUQG+fWSObJjnMVhasUDEUwlENk8IXw==
+
+react-native-root-siblings@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-root-siblings/-/react-native-root-siblings-4.1.1.tgz#b7742db7634a87f507eb99a5fd699c4f10c46ab0"
+  integrity sha512-sdmLElNs5PDWqmZmj4/aNH4anyxreaPm61c4ZkRiR8SO/GzLg6KjAbb0e17RmMdnBdD0AIQbS38h/l55YKN4ZA==
+
+react-native-root-toast@^3.2.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-root-toast/-/react-native-root-toast-3.2.1.tgz#f456d029f5c5b76e4b686334f25371465478a3be"
+  integrity sha512-BNf6LKMqcIAonKgqCGQWk+1lduFqSjPYbEF0FygMZbXhODRTvrGUAvAgV6kfamVPOkKHUkPU7dnnvmgEQ8ZDzQ==
+  dependencies:
+    prop-types "^15.5.10"
+    react-native-root-siblings "^4.0.0"
 
 react-native-safe-area-context@0.6.0:
   version "0.6.0"
